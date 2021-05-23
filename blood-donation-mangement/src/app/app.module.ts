@@ -12,6 +12,8 @@ import { HeaderComponent } from './components/partials/header/header.component';
 import { HeaderPageComponent } from './components/partials/header-page/header-page.component';
 import { HomeComponent } from './components/partials/home/home.component';
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { NotFoundComponent } from './components/partials/not-found/not-found.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

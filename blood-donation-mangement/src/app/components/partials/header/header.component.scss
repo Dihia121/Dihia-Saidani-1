@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+ div {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color:white;
+ }
+
+ li, a, button {
+   font-family: "Oxygen", sans-serif;
+   font-weight: 600;
+   font-size: 15px;
+   color: #edf0f1;
+   text-decoration: none;
+ }
+
+ header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 5%;
+ }
+
+.logo {
+  cursor: pointer;
+  /*margin-right: auto;*/
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a { 
+  color: #5a5555;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover { 
+  transition: all 0.3s ease 0s;
+  color: #D70032;
+
+  position: relative;
+  animation: bubble 6s backwards;
+  /*animation-iteration-count: 1;*/
+}
+
+@keyframes bubble {
+  
+  from {top: 0px;}
+  to {top: -300px;}
+}
+
+.btn-two {
+  margin-left: 15px;
+  padding: 1px 15px;
+  color: white;
+  background: #D70032;
+  /*border: 1px solid #D70032;*/
+}
+.btn-one {
+  padding: 1px 31.8px;
+  color: white;
+  background: #272C3F;
+  /*border: 1px solid #D70032;*/
+}
+
+button:hover {
+  color: white;
+  background-color: #D70032;
+}
+
+button:hover {
+  color: white;
+  background-color: #272C3F;
+}
