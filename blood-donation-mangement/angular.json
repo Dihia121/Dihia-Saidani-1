@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "blood-donation-mangement"
+    }
+  },
+  "defaultProject": "blood-donation-mangement",
+  "cli": {
+    "analytics": false
+  }
 }
